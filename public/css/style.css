@@ -8,6 +8,7 @@
     
 }
 
+
 body {
   text-align: center;
   min-height: 100vh;
@@ -129,11 +130,92 @@ button {
 }
 
 #myChart {
-  display: flex;
-  align-items: center;
   max-width: 750px;
   max-height: 650px;
-  
+  margin: auto;
+}
+
+.span.chat #chat-text{
+  display: inline-block;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ 
+}
+
+.chat-icon {
+  vertical-align: middle;
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+  line-height: 150px;
+  font-size: 3em;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+.container-reminder {
+  display: inline-block;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.bell-icon {
+  vertical-align: middle;
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
+  line-height: 150px;
+  font-size: 3em;
+  text-align: center;
+  opacity: 0.5;
+
+}
+
+.spacer1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-cta {
+  background-color: #2B98EA;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.spacer2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+.icon-small {
+  vertical-align: middle;
+  padding-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 150px;
+  font-size: 3em;
+  text-align: center;
+  opacity: 0.5;
+
+}
+
+.end-text {
+  font-size: 10px;
+  opacity: 60%;
 }
 
 
